@@ -4,17 +4,17 @@ import { PaperclipIcon, Plus, Square } from "lucide-react"
 
 export default function Home() {
   return (
-    <div className="flex flex-col space-x-4 space-y-4 p-4 border rounded-lg bg-white">
-      <div className="flex items-center justify-between w-full">
+    <div className="flex flex-col space-x-4 space-y-4 p-1 border rounded-lg bg-white">
+      {/* <div className="flex items-center justify-between w-full">
         <h1 className="text-2xl font-bold">Em aberto</h1>
         <Button className="group flex shrink-0 px-2 py-1 gap-1 text-xs h-[32px] cursor-pointer" variant="ghost">
           <Plus className="w-4 h-4" />
           Adicionar
         </Button>
-      </div>
+      </div> */}
 
       <div className="flex flex-col w-[700px]">
-        <Card className="flex justify-center w-full mx-auto p-0 text-[13px] rounded-none border-none shadow-none hover:bg-zinc-50 transition-colors duration-200">
+        <Card className="flex justify-center w-full mx-auto p-0 text-[13px] rounded-[6px] border-none shadow-none hover:bg-zinc-50 transition-colors duration-200">
           <CardContent className="py-1 px-4">
             <div className="hidden sm:flex items-center justify-between gap-4">
               <div className="flex items-center gap-6">
